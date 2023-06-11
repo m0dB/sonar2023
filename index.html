@@ -1,0 +1,1023 @@
+<html>
+<head>
+<meta charset="UTF-8">
+<style>
+html{width:100%;}
+body
+{
+  width: 100%;
+  font-family: sans-serif;
+  font-size: 18pt;
+  padding: 0;
+  margin: 0;
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+h1 {
+  /* block header (thursday day, friday night, etc) */
+  font-size: 20;
+  padding: 2px;
+  margin: 0;
+  margin-top: 20px;
+}
+h2 {
+  /* stage header (sonardome, sonarhall, etc) */
+  font-size: 22;
+  padding: 2px;
+  margin: 0;
+}
+div
+{
+  padding: 0;
+  margin: 0;
+}
+a
+{
+  color: black;
+  text-decoration: none;
+}
+a:hover
+{
+  color: blue;
+  text-decoration: none;
+}
+span.i
+{
+  font-style: italic;
+  color: #ff0000;
+}
+div.b
+{
+  /* block class */
+  clear:both;
+  padding: 0;
+  margin: 0;
+  background: #f8f8f8;
+  page-break-after: always;
+}
+div.bn
+{
+  /* block class */
+  clear:both;
+  padding: 0;
+  margin: 0;
+  background: #f8f8f8;
+  page-break-after: always;
+}
+div.s
+{
+  /* stage class */
+  float: left;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 20px;
+}
+div.b div.s
+{
+  width: 25%;
+  background: #ffffc0;
+}
+div.bn div.s
+{
+  width: 25%;
+  background: #c0c0d0;
+}
+div.c
+{
+  /* artists container */
+  position: relative;
+  margin: 2px;
+}
+div.c div
+{
+  /* artist class */
+  position: absolute;
+  border: 1px solid #b0b0b0;
+  width: 100%;
+}
+div.v
+{
+  background: #f8f8f8;
+}
+div.v0
+{
+  background: #f8f8f8;
+}
+div.v1
+{
+  background: #f8f8f8;
+}
+div.v2
+{
+  background: #f8f8f8;
+}
+div.v3
+{
+  background: #f8f8f8;
+}
+div.v div.l
+{
+  background: #f8f8f8;
+  width: 5%;
+  height: 100%;
+  border: 0;
+}
+div.v0 div.l
+{
+  background: #ff4040;
+  width: 5%;
+  height: 100%;
+  border: 0;
+}
+div.v1 div.l
+{
+  background: #ffc000;
+  width: 5%;
+  height: 100%;
+  border: 0;
+}
+div.v2 div.l
+{
+  background: #40ff40;
+  width: 5%;
+  height: 100%;
+  border: 0;
+}
+div.v3 div.l
+{
+  background: #40ffff;
+  width: 5%;
+  height: 100%;
+  border: 0;
+}
+div.v div.r
+{
+  margin-left: 5%;
+  width: 95%;
+  border: 0;
+}
+div.v0 div.r
+{
+  margin-left: 5%;
+  width: 95%;
+  border: 0;
+}
+div.v1 div.r
+{
+  margin-left: 5%;
+  width: 95%;
+  border: 0;
+}
+div.v2 div.r
+{
+  margin-left: 5%;
+  width: 95%;
+  border: 0;
+}
+div.v3 div.r
+{
+  margin-left: 5%;
+  width: 95%;
+  border: 0;
+}
+div#a0
+{
+  top: 0px;
+  height: 95px;
+}
+div#a1
+{
+  top: 104px;
+  height: 79px;
+}
+div#a2
+{
+  top: 192px;
+  height: 127px;
+}
+div#a3
+{
+  top: 336px;
+  height: 63px;
+}
+div#a4
+{
+  top: 408px;
+  height: 159px;
+}
+div#a5
+{
+  top: 584px;
+  height: 71px;
+}
+div#a6
+{
+  top: 672px;
+  height: 191px;
+}
+div#a7
+{
+  top: 72px;
+  height: 95px;
+}
+div#a8
+{
+  top: 176px;
+  height: 111px;
+}
+div#a9
+{
+  top: 296px;
+  height: 71px;
+}
+div#a10
+{
+  top: 384px;
+  height: 79px;
+}
+div#a11
+{
+  top: 480px;
+  height: 79px;
+}
+div#a12
+{
+  top: 576px;
+  height: 95px;
+}
+div#a13
+{
+  top: 96px;
+  height: 71px;
+}
+div#a14
+{
+  top: 288px;
+  height: 95px;
+}
+div#a15
+{
+  top: 512px;
+  height: 95px;
+}
+div#a16
+{
+  top: 48px;
+  height: 71px;
+}
+div#a17
+{
+  top: 192px;
+  height: 71px;
+}
+div#a18
+{
+  top: 360px;
+  height: 95px;
+}
+div#a19
+{
+  top: 552px;
+  height: 95px;
+}
+div#c0
+{
+  height: 864px; 
+}
+div#c1
+{
+  height: 864px; 
+}
+div#c2
+{
+  height: 864px; 
+}
+div#c3
+{
+  height: 864px; 
+}
+div#a20
+{
+  top: 0px;
+  height: 95px;
+}
+div#a21
+{
+  top: 104px;
+  height: 87px;
+}
+div#a22
+{
+  top: 200px;
+  height: 95px;
+}
+div#a23
+{
+  top: 312px;
+  height: 71px;
+}
+div#a24
+{
+  top: 392px;
+  height: 95px;
+}
+div#a25
+{
+  top: 496px;
+  height: 175px;
+}
+div#a26
+{
+  top: 680px;
+  height: 183px;
+}
+div#a27
+{
+  top: 72px;
+  height: 95px;
+}
+div#a28
+{
+  top: 184px;
+  height: 71px;
+}
+div#a29
+{
+  top: 272px;
+  height: 71px;
+}
+div#a30
+{
+  top: 352px;
+  height: 95px;
+}
+div#a31
+{
+  top: 464px;
+  height: 79px;
+}
+div#a32
+{
+  top: 560px;
+  height: 111px;
+}
+div#a33
+{
+  top: 96px;
+  height: 95px;
+}
+div#a34
+{
+  top: 312px;
+  height: 95px;
+}
+div#a35
+{
+  top: 528px;
+  height: 95px;
+}
+div#a36
+{
+  top: 48px;
+  height: 71px;
+}
+div#a37
+{
+  top: 192px;
+  height: 71px;
+}
+div#a38
+{
+  top: 336px;
+  height: 95px;
+}
+div#a39
+{
+  top: 504px;
+  height: 143px;
+}
+div#c4
+{
+  height: 864px; 
+}
+div#c5
+{
+  height: 864px; 
+}
+div#c6
+{
+  height: 864px; 
+}
+div#c7
+{
+  height: 864px; 
+}
+div#a40
+{
+  top: 0px;
+  height: 95px;
+}
+div#a41
+{
+  top: 112px;
+  height: 143px;
+}
+div#a42
+{
+  top: 256px;
+  height: 183px;
+}
+div#a43
+{
+  top: 448px;
+  height: 119px;
+}
+div#a44
+{
+  top: 584px;
+  height: 183px;
+}
+div#a45
+{
+  top: 776px;
+  height: 183px;
+}
+div#a46
+{
+  top: 48px;
+  height: 95px;
+}
+div#a47
+{
+  top: 160px;
+  height: 95px;
+}
+div#a48
+{
+  top: 264px;
+  height: 119px;
+}
+div#a49
+{
+  top: 392px;
+  height: 79px;
+}
+div#a50
+{
+  top: 480px;
+  height: 143px;
+}
+div#a51
+{
+  top: 632px;
+  height: 175px;
+}
+div#a52
+{
+  top: 816px;
+  height: 143px;
+}
+div#a53
+{
+  top: 288px;
+  height: 95px;
+}
+div#a54
+{
+  top: 384px;
+  height: 479px;
+}
+div#a55
+{
+  top: 96px;
+  height: 143px;
+}
+div#a56
+{
+  top: 256px;
+  height: 95px;
+}
+div#a57
+{
+  top: 360px;
+  height: 143px;
+}
+div#a58
+{
+  top: 520px;
+  height: 79px;
+}
+div#a59
+{
+  top: 608px;
+  height: 175px;
+}
+div#a60
+{
+  top: 792px;
+  height: 167px;
+}
+div#c8
+{
+  height: 960px; 
+}
+div#c9
+{
+  height: 960px; 
+}
+div#c10
+{
+  height: 960px; 
+}
+div#c11
+{
+  height: 960px; 
+}
+div#a61
+{
+  top: 0px;
+  height: 95px;
+}
+div#a62
+{
+  top: 96px;
+  height: 103px;
+}
+div#a63
+{
+  top: 208px;
+  height: 95px;
+}
+div#a64
+{
+  top: 312px;
+  height: 111px;
+}
+div#a65
+{
+  top: 432px;
+  height: 239px;
+}
+div#a66
+{
+  top: 680px;
+  height: 183px;
+}
+div#a67
+{
+  top: 72px;
+  height: 95px;
+}
+div#a68
+{
+  top: 176px;
+  height: 95px;
+}
+div#a69
+{
+  top: 288px;
+  height: 71px;
+}
+div#a70
+{
+  top: 368px;
+  height: 95px;
+}
+div#a71
+{
+  top: 472px;
+  height: 71px;
+}
+div#a72
+{
+  top: 560px;
+  height: 111px;
+}
+div#a73
+{
+  top: 96px;
+  height: 71px;
+}
+div#a74
+{
+  top: 312px;
+  height: 71px;
+}
+div#a75
+{
+  top: 512px;
+  height: 95px;
+}
+div#a76
+{
+  top: 48px;
+  height: 71px;
+}
+div#a77
+{
+  top: 192px;
+  height: 71px;
+}
+div#a78
+{
+  top: 360px;
+  height: 95px;
+}
+div#a79
+{
+  top: 552px;
+  height: 95px;
+}
+div#c12
+{
+  height: 864px; 
+}
+div#c13
+{
+  height: 864px; 
+}
+div#c14
+{
+  height: 864px; 
+}
+div#c15
+{
+  height: 864px; 
+}
+div#a80
+{
+  top: 0px;
+  height: 143px;
+}
+div#a81
+{
+  top: 144px;
+  height: 143px;
+}
+div#a82
+{
+  top: 288px;
+  height: 119px;
+}
+div#a83
+{
+  top: 416px;
+  height: 103px;
+}
+div#a84
+{
+  top: 544px;
+  height: 119px;
+}
+div#a85
+{
+  top: 680px;
+  height: 127px;
+}
+div#a86
+{
+  top: 816px;
+  height: 143px;
+}
+div#a87
+{
+  top: 48px;
+  height: 95px;
+}
+div#a88
+{
+  top: 160px;
+  height: 79px;
+}
+div#a89
+{
+  top: 256px;
+  height: 127px;
+}
+div#a90
+{
+  top: 400px;
+  height: 143px;
+}
+div#a91
+{
+  top: 552px;
+  height: 95px;
+}
+div#a92
+{
+  top: 656px;
+  height: 143px;
+}
+div#a93
+{
+  top: 808px;
+  height: 151px;
+}
+div#a94
+{
+  top: 224px;
+  height: 63px;
+}
+div#a95
+{
+  top: 296px;
+  height: 79px;
+}
+div#a96
+{
+  top: 384px;
+  height: 95px;
+}
+div#a97
+{
+  top: 488px;
+  height: 63px;
+}
+div#a98
+{
+  top: 560px;
+  height: 95px;
+}
+div#a99
+{
+  top: 664px;
+  height: 63px;
+}
+div#a100
+{
+  top: 736px;
+  height: 127px;
+}
+div#a101
+{
+  top: 96px;
+  height: 167px;
+}
+div#a102
+{
+  top: 264px;
+  height: 143px;
+}
+div#a103
+{
+  top: 416px;
+  height: 127px;
+}
+div#a104
+{
+  top: 560px;
+  height: 95px;
+}
+div#a105
+{
+  top: 664px;
+  height: 143px;
+}
+div#a106
+{
+  top: 816px;
+  height: 143px;
+}
+div#c16
+{
+  height: 960px; 
+}
+div#c17
+{
+  height: 960px; 
+}
+div#c18
+{
+  height: 960px; 
+}
+div#c19
+{
+  height: 960px; 
+}
+</style>
+</head>
+<body>
+<div class="b" id="b0"><h1>Thursday 15 | Day</h1>
+  <div class="s">
+    <h2>SonarVillage</h2>
+    <div class="c" id="c0">
+      <div class="v" id="a0"><div class="l"></div><div class="r">15:00 - 16:00 <a href="https://sonar.es/en/activity/sergi-botella">Sergi Botella</a><span class="i"></span></div></div>
+      <div class="v" id="a1"><div class="l"></div><div class="r">16:05 - 16:55 <a href="https://sonar.es/en/activity/kitty110-lablackie-lbeel">Kitty110 / LaBlackie / L’Beel</a><span class="i"></span></div></div>
+      <div class="v0" id="a2"><div class="l"></div><div class="r">17:00 - 18:20 <a href="https://sonar.es/en/activity/manuka-honey">Manuka Honey</a><span class="i"></span></div></div>
+      <div class="v2" id="a3"><div class="l"></div><div class="r">18:30 - 19:10 <a href="https://sonar.es/en/activity/grove">Grove</a><span class="i"></span></div></div>
+      <div class="v2" id="a4"><div class="l"></div><div class="r">19:15 - 20:55 <a href="https://sonar.es/en/activity/bradley-zero-b2b-moxie-1">Bradley Zero b2b Moxie</a><span class="i"></span></div></div>
+      <div class="v2" id="a5"><div class="l"></div><div class="r">21:05 - 21:50 <a href="https://sonar.es/en/activity/charlotte-adigery-and-bolis-pupul">Charlotte Adigéry &amp; Bolis Pupul</a><span class="i"></span></div></div>
+      <div class="v2" id="a6"><div class="l"></div><div class="r">22:00 - 00:00 <a href="https://sonar.es/en/activity/black-coffee-1">Black Coffee</a><span class="i"></span></div></div>
+    </div>
+  </div>
+  <div class="s">
+    <h2>SonarPark</h2>
+    <div class="c" id="c1">
+      <div class="v" id="a7"><div class="l"></div><div class="r">15:45 - 16:45 <a href="https://sonar.es/en/activity/lanav">lanav</a><span class="i"></span></div></div>
+      <div class="v" id="a8"><div class="l"></div><div class="r">16:50 - 18:00 <a href="https://sonar.es/en/activity/b2bbs-1">B2BBS</a><span class="i"></span></div></div>
+      <div class="v2" id="a9"><div class="l"></div><div class="r">18:05 - 18:50 <a href="https://sonar.es/en/activity/700-bliss">700 Bliss</a><span class="i"></span></div></div>
+      <div class="v" id="a10"><div class="l"></div><div class="r">19:00 - 19:50 <a href="https://sonar.es/en/activity/tohji">Tohji</a><span class="i"></span></div></div>
+      <div class="v0" id="a11"><div class="l"></div><div class="r">20:00 - 20:50 <a href="https://sonar.es/en/activity/soda-plains">Soda Plains</a><span class="i"></span></div></div>
+      <div class="v2" id="a12"><div class="l"></div><div class="r">21:00 - 22:00 <a href="https://sonar.es/en/activity/bored-lord">Bored Lord</a><span class="i"></span></div></div>
+    </div>
+  </div>
+  <div class="s">
+    <h2>SonarComplex</h2>
+    <div class="c" id="c2">
+      <div class="v" id="a13"><div class="l"></div><div class="r">16:00 - 16:45 <a href="https://sonar.es/en/activity/sabrina-bellaouel">Sabrina Bellaouel</a><span class="i"></span></div></div>
+      <div class="v" id="a14"><div class="l"></div><div class="r">18:00 - 19:00 <a href="https://sonar.es/en/activity/grievous-bodily-harmonics">Grievous Bodily Harmonics</a><span class="i"></span></div></div>
+      <div class="v" id="a15"><div class="l"></div><div class="r">20:20 - 21:20 <a href="https://sonar.es/en/activity/kode9-presents-escapology">Kode9 presents ‘Escapology’</a><span class="i"></span></div></div>
+    </div>
+  </div>
+  <div class="s">
+    <h2>SonarHall</h2>
+    <div class="c" id="c3">
+      <div class="v" id="a16"><div class="l"></div><div class="r">15:30 - 16:15 <a href="https://sonar.es/en/activity/kyne">KYNE</a><span class="i"></span></div></div>
+      <div class="v" id="a17"><div class="l"></div><div class="r">17:00 - 17:45 <a href="https://sonar.es/en/activity/marina-herlop">Marina Herlop</a><span class="i"></span></div></div>
+      <div class="v0" id="a18"><div class="l"></div><div class="r">18:45 - 19:45 <a href="https://sonar.es/en/activity/oneohtrix-point-never">Oneohtrix Point Never</a><span class="i"></span></div></div>
+      <div class="v1" id="a19"><div class="l"></div><div class="r">20:45 - 21:45 <a href="https://sonar.es/en/activity/erika-de-casier">Erika de Casier</a><span class="i"></span></div></div>
+    </div>
+  </div>
+</div>
+<div class="b" id="b0"><h1>Friday 16 |  Day</h1>
+  <div class="s">
+    <h2>SonarVillage</h2>
+    <div class="c" id="c4">
+      <div class="v" id="a20"><div class="l"></div><div class="r">15:00 - 16:00 <a href="https://sonar.es/en/activity/selectya-glossy">Selectya Glossy</a><span class="i"></span></div></div>
+      <div class="v0" id="a21"><div class="l"></div><div class="r">16:05 - 17:00 <a href="https://sonar.es/en/activity/musa-keys">Musa Keys</a><span class="i"></span></div></div>
+      <div class="v2" id="a22"><div class="l"></div><div class="r">17:05 - 18:05 <a href="https://sonar.es/en/activity/ahadadream">Ahadadream</a><span class="i"></span></div></div>
+      <div class="v2" id="a23"><div class="l"></div><div class="r">18:15 - 19:00 <a href="https://sonar.es/en/activity/crystal-murray">Crystal Murray</a><span class="i"></span></div></div>
+      <div class="v0" id="a24"><div class="l"></div><div class="r">19:05 - 20:05 <a href="https://sonar.es/en/activity/mikeq">MikeQ</a><span class="i"></span></div></div>
+      <div class="v1" id="a25"><div class="l"></div><div class="r">20:10 - 22:00 <a href="https://sonar.es/en/activity/the-blessed-madonna">The Blessed Madonna</a><span class="i"></span></div></div>
+      <div class="v2" id="a26"><div class="l"></div><div class="r">22:05 - 00:00 <a href="https://sonar.es/en/activity/eliza-rose">Eliza Rose</a><span class="i"></span></div></div>
+    </div>
+  </div>
+  <div class="s">
+    <h2>SonarPark</h2>
+    <div class="c" id="c5">
+      <div class="v0" id="a27"><div class="l"></div><div class="r">15:45 - 16:45 <a href="https://sonar.es/en/activity/dalila">DALILA</a><span class="i"></span></div></div>
+      <div class="v" id="a28"><div class="l"></div><div class="r">16:55 - 17:40 <a href="https://sonar.es/en/activity/merca-bae-presents-2048">Merca Bae presents ‘2048’</a><span class="i"></span></div></div>
+      <div class="v0" id="a29"><div class="l"></div><div class="r">17:50 - 18:35 <a href="https://sonar.es/en/activity/albany">Albany</a><span class="i"></span></div></div>
+      <div class="v2" id="a30"><div class="l"></div><div class="r">18:40 - 19:40 <a href="https://sonar.es/en/activity/amor-satyr">Amor Satyr</a><span class="i"></span></div></div>
+      <div class="v1" id="a31"><div class="l"></div><div class="r">19:50 - 20:40 <a href="https://sonar.es/en/activity/lorenzo-senni">Lorenzo Senni</a><span class="i"></span></div></div>
+      <div class="v2" id="a32"><div class="l"></div><div class="r">20:50 - 22:00 <a href="https://sonar.es/en/activity/badsista-b2b-cashu">BADSISTA b2b Cashu</a><span class="i"></span></div></div>
+    </div>
+  </div>
+  <div class="s">
+    <h2>SonarComplex</h2>
+    <div class="c" id="c6">
+      <div class="v" id="a33"><div class="l"></div><div class="r">16:00 - 17:00 <a href="https://sonar.es/en/activity/santiago-latorre-and-colin-self">Santiago Latorre &amp; Colin Self</a><span class="i"></span></div></div>
+      <div class="v" id="a34"><div class="l"></div><div class="r">18:15 - 19:15 <a href="https://sonar.es/en/activity/desert">Desert</a><span class="i"></span></div></div>
+      <div class="v2" id="a35"><div class="l"></div><div class="r">20:30 - 21:30 <a href="https://sonar.es/en/activity/klara-lewis-and-nik-colk-void-pedro-maia">Klara Lewis &amp; Nik Colk Void + Pedro Maia</a><span class="i"></span></div></div>
+    </div>
+  </div>
+  <div class="s">
+    <h2>SonarHall</h2>
+    <div class="c" id="c7">
+      <div class="v0" id="a36"><div class="l"></div><div class="r">15:30 - 16:15 <a href="https://sonar.es/en/activity/ralphie-choo">Ralphie Choo</a><span class="i"></span></div></div>
+      <div class="v1" id="a37"><div class="l"></div><div class="r">17:00 - 17:45 <a href="https://sonar.es/en/activity/bendik-giske">Bendik Giske</a><span class="i"></span></div></div>
+      <div class="v2" id="a38"><div class="l"></div><div class="r">18:30 - 19:30 <a href="https://sonar.es/en/activity/ryoji-ikeda">Ryoji Ikeda</a><span class="i"></span></div></div>
+      <div class="v3" id="a39"><div class="l"></div><div class="r">20:15 - 21:45 <a href="https://sonar.es/en/activity/max-cooper-3dav-live">Max Cooper 3D/AV live</a><span class="i"></span></div></div>
+    </div>
+  </div>
+</div>
+<div class="bn" id="b0"><h1>Friday 16 |  Night</h1>
+  <div class="s">
+    <h2>SonarClub</h2>
+    <div class="c" id="c8">
+      <div class="v1" id="a40"><div class="l"></div><div class="r">21:00 - 22:00 <a href="https://sonar.es/en/activity/cardopusher">Cardopusher</a><span class="i"></span></div></div>
+      <div class="v3" id="a41"><div class="l"></div><div class="r">22:10 - 23:40 <a href="https://sonar.es/en/activity/aphex-twin">Aphex Twin</a><span class="i"></span></div></div>
+      <div class="v2" id="a42"><div class="l"></div><div class="r">23:40 - 01:35 <a href="https://sonar.es/en/activity/tsvi">TSVI</a><span class="i"></span></div></div>
+      <div class="v3" id="a43"><div class="l"></div><div class="r">01:40 - 02:55 <a href="https://sonar.es/en/activity/bicep-live">BICEP live</a><span class="i"></span></div></div>
+      <div class="v2" id="a44"><div class="l"></div><div class="r">03:05 - 05:00 <a href="https://sonar.es/en/activity/peggy-gou">Peggy Gou</a><span class="i"></span></div></div>
+      <div class="v2" id="a45"><div class="l"></div><div class="r">05:05 - 07:00 <a href="https://sonar.es/en/activity/solomun">Solomun</a><span class="i"></span></div></div>
+    </div>
+  </div>
+  <div class="s">
+    <h2>SonarLab</h2>
+    <div class="c" id="c9">
+      <div class="v" id="a46"><div class="l"></div><div class="r">21:30 - 22:30 <a href="https://sonar.es/en/activity/baba-sy">Baba Sy</a><span class="i"></span></div></div>
+      <div class="v2" id="a47"><div class="l"></div><div class="r">22:40 - 23:40 <a href="https://sonar.es/en/activity/ikonika-presents-bubble-up-live">Ikonika presents ‘Bubble Up’ live</a><span class="i"></span></div></div>
+      <div class="v2" id="a48"><div class="l"></div><div class="r">23:45 - 01:00 <a href="https://sonar.es/en/activity/aquarian">Aquarian</a><span class="i"></span></div></div>
+      <div class="v0" id="a49"><div class="l"></div><div class="r">01:05 - 01:55 <a href="https://sonar.es/en/activity/shygirl">Shygirl</a><span class="i"></span></div></div>
+      <div class="v2" id="a50"><div class="l"></div><div class="r">02:00 - 03:30 <a href="https://sonar.es/en/activity/dj-ez">DJ EZ</a><span class="i"></span></div></div>
+      <div class="v3" id="a51"><div class="l"></div><div class="r">03:35 - 05:25 <a href="https://sonar.es/en/activity/sherelle-x-kode9">SHERELLE x Kode9</a><span class="i"></span></div></div>
+      <div class="v2" id="a52"><div class="l"></div><div class="r">05:30 - 07:00 <a href="https://sonar.es/en/activity/dj-marky-and-mc-gq">DJ Marky &amp; MC GQ</a><span class="i"></span></div></div>
+    </div>
+  </div>
+  <div class="s">
+    <h2>SonarCar</h2>
+    <div class="c" id="c10">
+      <div class="v1" id="a53"><div class="l"></div><div class="r">00:00 - 01:00 <a href="https://sonar.es/en/activity/russell-haswell-dj-set">Russell Haswell DJ set</a><span class="i"></span></div></div>
+      <div class="v2" id="a54"><div class="l"></div><div class="r">01:00 - 06:00 <a href="https://sonar.es/en/activity/ame-b2b-marcel-dettmann">Âme b2b Marcel Dettmann</a><span class="i"></span></div></div>
+    </div>
+  </div>
+  <div class="s">
+    <h2>SonarPub</h2>
+    <div class="c" id="c11">
+      <div class="v" id="a55"><div class="l"></div><div class="r">22:00 - 23:30 <a href="https://sonar.es/en/activity/jovendelaperla">JOVENDELAPERLA</a><span class="i"></span></div></div>
+      <div class="v1" id="a56"><div class="l"></div><div class="r">23:40 - 00:40 <a href="https://sonar.es/en/activity/fever-ray">Fever Ray</a><span class="i"></span></div></div>
+      <div class="v1" id="a57"><div class="l"></div><div class="r">00:45 - 02:15 <a href="https://sonar.es/en/activity/ccdisco">CC:DISCO!</a><span class="i"></span></div></div>
+      <div class="v1" id="a58"><div class="l"></div><div class="r">02:25 - 03:15 <a href="https://sonar.es/en/activity/cakes-da-killa">Cakes Da Killa</a><span class="i"></span></div></div>
+      <div class="v1" id="a59"><div class="l"></div><div class="r">03:20 - 05:10 <a href="https://sonar.es/en/activity/honey-dijon">Honey Dijon</a><span class="i"></span></div></div>
+      <div class="v3" id="a60"><div class="l"></div><div class="r">05:15 - 07:00 <a href="https://sonar.es/en/activity/isabella-b2b-roza-terenzi">ISAbella b2b Roza Terenzi</a><span class="i"></span></div></div>
+    </div>
+  </div>
+</div>
+<div class="b" id="b0"><h1>Saturday 17 |  Day</h1>
+  <div class="s">
+    <h2>SonarVillage</h2>
+    <div class="c" id="c12">
+      <div class="v" id="a61"><div class="l"></div><div class="r">15:00 - 16:00 <a href="https://sonar.es/en/activity/aines">AINES</a><span class="i"></span></div></div>
+      <div class="v" id="a62"><div class="l"></div><div class="r">16:00 - 17:05 <a href="https://sonar.es/en/activity/dinamarca-1">Dinamarca</a><span class="i"></span></div></div>
+      <div class="v" id="a63"><div class="l"></div><div class="r">17:10 - 18:10 <a href="https://sonar.es/en/activity/toccororo">Toccororo</a><span class="i"></span></div></div>
+      <div class="v0" id="a64"><div class="l"></div><div class="r">18:15 - 19:25 <a href="https://sonar.es/en/activity/nick-leon">Nick León</a><span class="i"></span></div></div>
+      <div class="v2" id="a65"><div class="l"></div><div class="r">19:30 - 22:00 <a href="https://sonar.es/en/activity/2manydjs-invite-peach-and-tiga">2manydjs invite Peach &amp; Tiga</a><span class="i"></span></div></div>
+      <div class="v2" id="a66"><div class="l"></div><div class="r">22:05 - 00:00 <a href="https://sonar.es/en/activity/horse-meat-disco-x-prosumer">Horse Meat Disco x Prosumer</a><span class="i"></span></div></div>
+    </div>
+  </div>
+  <div class="s">
+    <h2>SonarPark</h2>
+    <div class="c" id="c13">
+      <div class="v" id="a67"><div class="l"></div><div class="r">15:45 - 16:45 <a href="https://sonar.es/en/activity/la-nina-jacaranda-presents-sexpiritual">La Niña Jacarandá presents ‘Sexpiritual’</a><span class="i"></span></div></div>
+      <div class="v0" id="a68"><div class="l"></div><div class="r">16:50 - 17:50 <a href="https://sonar.es/en/activity/nusar3000">nusar3000</a><span class="i"></span></div></div>
+      <div class="v0" id="a69"><div class="l"></div><div class="r">18:00 - 18:45 <a href="https://sonar.es/en/activity/leiti">LEÏTI</a><span class="i"></span></div></div>
+      <div class="v" id="a70"><div class="l"></div><div class="r">18:50 - 19:50 <a href="https://sonar.es/en/activity/flaca">Flaca</a><span class="i"></span></div></div>
+      <div class="v0" id="a71"><div class="l"></div><div class="r">19:55 - 20:40 <a href="https://sonar.es/en/activity/sticky-ma">Sticky M.A</a><span class="i"></span></div></div>
+      <div class="v2" id="a72"><div class="l"></div><div class="r">20:50 - 22:00 <a href="https://sonar.es/en/activity/omagoqa">Omagoqa</a><span class="i"></span></div></div>
+    </div>
+  </div>
+  <div class="s">
+    <h2>SonarComplex</h2>
+    <div class="c" id="c14">
+      <div class="v3" id="a73"><div class="l"></div><div class="r">16:00 - 16:45 <a href="https://sonar.es/en/activity/claraguilar">CLARAGUILAR</a><span class="i"></span></div></div>
+      <div class="v" id="a74"><div class="l"></div><div class="r">18:15 - 19:00 <a href="https://sonar.es/en/activity/carles-viarnes-and-alba-g-corral">Carles Viarnès &amp; Alba G. Corral</a><span class="i"></span></div></div>
+      <div class="v" id="a75"><div class="l"></div><div class="r">20:20 - 21:20 <a href="https://sonar.es/en/activity/lucrecia-dalt">Lucrecia Dalt</a><span class="i"></span></div></div>
+    </div>
+  </div>
+  <div class="s">
+    <h2>SonarHall</h2>
+    <div class="c" id="c15">
+      <div class="v2" id="a76"><div class="l"></div><div class="r">15:30 - 16:15 <a href="https://sonar.es/en/activity/phran-presents-vimana-discplay-1">Phran presents 'Vimana Discplay'</a><span class="i"></span></div></div>
+      <div class="v2" id="a77"><div class="l"></div><div class="r">17:00 - 17:45 <a href="https://sonar.es/en/activity/perera-elsewhere">Perera Elsewhere</a><span class="i"></span></div></div>
+      <div class="v2" id="a78"><div class="l"></div><div class="r">18:45 - 19:45 <a href="https://sonar.es/en/activity/deena-abdelwahed-presents-jbal-rrsas-live">Deena Abdelwahed presents ‘Jbal Rrsas’ live</a><span class="i"></span></div></div>
+      <div class="v1" id="a79"><div class="l"></div><div class="r">20:45 - 21:45 <a href="https://sonar.es/en/activity/hector-oaks-presents-fuego-universal-live">Héctor Oaks presents 'Fuego Universal' live</a><span class="i"></span></div></div>
+    </div>
+  </div>
+</div>
+<div class="bn" id="b0"><h1>Saturday 17 |  Night</h1>
+  <div class="s">
+    <h2>SonarClub</h2>
+    <div class="c" id="c16">
+      <div class="v2" id="a80"><div class="l"></div><div class="r">21:00 - 22:30 <a href="https://sonar.es/en/activity/undo">Undo</a><span class="i"></span></div></div>
+      <div class="v1" id="a81"><div class="l"></div><div class="r">22:30 - 00:00 <a href="https://sonar.es/en/activity/eric-prydz-presents-holo">Eric Prydz presents HOLO</a><span class="i"></span></div></div>
+      <div class="v2" id="a82"><div class="l"></div><div class="r">00:00 - 01:15 <a href="https://sonar.es/en/activity/mochakk">Mochakk</a><span class="i"></span></div></div>
+      <div class="v2" id="a83"><div class="l"></div><div class="r">01:20 - 02:25 <a href="https://sonar.es/en/activity/chloe-caillet">Chloé Caillet</a><span class="i"></span></div></div>
+      <div class="v2" id="a84"><div class="l"></div><div class="r">02:40 - 03:55 <a href="https://sonar.es/en/activity/tiga-b2b-cora-novoa">Tiga b2b Cora Novoa</a><span class="i"></span></div></div>
+      <div class="v1" id="a85"><div class="l"></div><div class="r">04:05 - 05:25 <a href="https://sonar.es/en/activity/richie-hawtin">Richie Hawtin</a><span class="i"></span></div></div>
+      <div class="v2" id="a86"><div class="l"></div><div class="r">05:30 - 07:00 <a href="https://sonar.es/en/activity/amelie-lens">Amelie Lens</a><span class="i"></span></div></div>
+    </div>
+  </div>
+  <div class="s">
+    <h2>SonarLab</h2>
+    <div class="c" id="c17">
+      <div class="v" id="a87"><div class="l"></div><div class="r">21:30 - 22:30 <a href="https://sonar.es/en/activity/topanga-kiddo">Topanga Kiddo</a><span class="i"></span></div></div>
+      <div class="v3" id="a88"><div class="l"></div><div class="r">22:40 - 23:30 <a href="https://sonar.es/en/activity/koreless">Koreless</a><span class="i"></span></div></div>
+      <div class="v0" id="a89"><div class="l"></div><div class="r">23:40 - 01:00 <a href="https://sonar.es/en/activity/anz">Anz</a><span class="i"></span></div></div>
+      <div class="v2" id="a90"><div class="l"></div><div class="r">01:10 - 02:40 <a href="https://sonar.es/en/activity/nene-h">Nene H</a><span class="i"></span></div></div>
+      <div class="v2" id="a91"><div class="l"></div><div class="r">02:45 - 03:45 <a href="https://sonar.es/en/activity/wata-igarashi-live">Wata Igarashi live</a><span class="i"></span></div></div>
+      <div class="v2" id="a92"><div class="l"></div><div class="r">03:50 - 05:20 <a href="https://sonar.es/en/activity/call-super-b2b-sedef-adasi">Call Super b2b Sedef Adasi</a><span class="i"></span></div></div>
+      <div class="v2" id="a93"><div class="l"></div><div class="r">05:25 - 07:00 <a href="https://sonar.es/en/activity/dj-holographic-b2b-dj-minx">DJ Holographic b2b DJ Minx</a><span class="i"></span></div></div>
+    </div>
+  </div>
+  <div class="s">
+    <h2>SonarCar</h2>
+    <div class="c" id="c18">
+      <div class="v0" id="a94"><div class="l"></div><div class="r">23:20 - 00:00 <a href="https://sonar.es/en/activity/samantha-hudson-presents-aove-black-label">Samantha Hudson presents ‘AOVE Black Label’</a><span class="i"></span></div></div>
+      <div class="v3" id="a95"><div class="l"></div><div class="r">00:05 - 00:55 <a href="https://sonar.es/en/activity/oro-jondo">Oro Jondo</a><span class="i"></span></div></div>
+      <div class="v0" id="a96"><div class="l"></div><div class="r">01:00 - 02:00 <a href="https://sonar.es/en/activity/parkineos">Parkineos</a><span class="i"></span></div></div>
+      <div class="v0" id="a97"><div class="l"></div><div class="r">02:05 - 02:45 <a href="https://sonar.es/en/activity/la-zowi-presents-la-reina-del-sur">La Zowi presents ‘La Reina del Sur’</a><span class="i"></span></div></div>
+      <div class="v0" id="a98"><div class="l"></div><div class="r">02:50 - 03:50 <a href="https://sonar.es/en/activity/rusowsky-dj-set">Rusowsky DJ set</a><span class="i"></span></div></div>
+      <div class="v0" id="a99"><div class="l"></div><div class="r">03:55 - 04:35 <a href="https://sonar.es/en/activity/orslok">Orslok</a><span class="i"></span></div></div>
+      <div class="v0" id="a100"><div class="l"></div><div class="r">04:40 - 06:00 <a href="https://sonar.es/en/activity/mareo-chico-blanco-b2b-8kitoo">Mareo: Chico Blanco b2b 8kitoo</a><span class="i"></span></div></div>
+    </div>
+  </div>
+  <div class="s">
+    <h2>SonarPub</h2>
+    <div class="c" id="c19">
+      <div class="v1" id="a101"><div class="l"></div><div class="r">22:00 - 23:45 <a href="https://sonar.es/en/activity/lowprofile">Lowprofile</a><span class="i"></span></div></div>
+      <div class="v0" id="a102"><div class="l"></div><div class="r">23:45 - 01:15 <a href="https://sonar.es/en/activity/bad-gyal">Bad Gyal</a><span class="i"></span></div></div>
+      <div class="v0" id="a103"><div class="l"></div><div class="r">01:20 - 02:40 <a href="https://sonar.es/en/activity/alizzz-club-2000-dj-set">Alizzz ‘Club 2000’ DJ set</a><span class="i"></span></div></div>
+      <div class="v3" id="a104"><div class="l"></div><div class="r">02:50 - 03:50 <a href="https://sonar.es/en/activity/little-simz">Little Simz</a><span class="i"></span></div></div>
+      <div class="v2" id="a105"><div class="l"></div><div class="r">03:55 - 05:25 <a href="https://sonar.es/en/activity/carista">Carista</a><span class="i"></span></div></div>
+      <div class="v1" id="a106"><div class="l"></div><div class="r">05:30 - 07:00 <a href="https://sonar.es/en/activity/angel-molina">Angel Molina</a><span class="i"></span></div></div>
+    </div>
+  </div>
+</div>
+<img src="qr.png" width="70%"/>
+</body>
